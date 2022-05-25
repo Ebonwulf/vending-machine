@@ -13,6 +13,13 @@ public class VendingMachine {
         CerealBars frostiesBar = new CerealBars("Frosties Bar", Categories.CEREAL_BARS, 0.39);
 
         StockInitialiser stockInitialiser = new StockInitialiser();
-        stockInitialiser.createStock();
+        stockInitialiser.createStock(snickers);
+        stockInitialiser.createStock(creamEgg);
+        stockInitialiser.createStock(paprika);
+        stockInitialiser.createStock(cheeseAndOnion);
+        stockInitialiser.createStock(monster);
+        stockInitialiser.createStock(pepsi);
+        stockInitialiser.createStock(brunchBar);
+        stockInitialiser.createStock(frostiesBar);
     }
 }

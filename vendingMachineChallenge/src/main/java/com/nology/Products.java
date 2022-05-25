@@ -1,6 +1,6 @@
 package com.nology;
 
-public abstract class Products {
+public class Products {
     public  String name;
     protected Categories category;
     public double price;
